@@ -1,0 +1,4 @@
+risk_category,customers,avg_default_probability,actual_default_rate
+High Risk,1153,94.56633,94.01561144839549
+Low Risk,4387,10.527993,3.419193070435377
+Medium Risk,944,41.063057,19.491525423728813

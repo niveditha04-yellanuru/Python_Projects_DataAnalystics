@@ -1,0 +1,39 @@
+feature,importance
+numeric__loan_burden_monthly,0.09081854
+categorical__loan_grade_D,0.07991117
+categorical__person_home_ownership_RENT,0.06977389
+categorical__loan_grade_A,0.067359574
+numeric__loan_to_income,0.05717439
+categorical__loan_grade_C,0.051678486
+categorical__person_home_ownership_OWN,0.050548334
+categorical__loan_grade_B,0.03856128
+categorical__loan_grade_E,0.037554864
+numeric__loan_int_rate,0.036156904
+categorical__employment_group_0-2 years,0.035507046
+categorical__loan_intent_VENTURE,0.032452565
+categorical__person_home_ownership_MORTGAGE,0.030551543
+categorical__loan_intent_HOMEIMPROVEMENT,0.02860787
+categorical__loan_grade_F,0.026948301
+numeric__person_income,0.02675742
+categorical__loan_intent_DEBTCONSOLIDATION,0.023905516
+categorical__loan_intent_MEDICAL,0.022616083
+numeric__monthly_income,0.019712854
+categorical__loan_grade_G,0.016495485
+numeric__loan_percent_income,0.015362862
+categorical__loan_intent_EDUCATION,0.01297776
+categorical__person_home_ownership_OTHER,0.010834287
+categorical__cb_person_default_on_file_Y,0.0102956155
+categorical__age_group_Young,0.010260749
+numeric__person_age,0.009883254
+categorical__cb_person_default_on_file_N,0.009007356
+numeric__person_emp_length,0.008897285
+categorical__loan_intent_PERSONAL,0.008442685
+categorical__age_group_Middle Age,0.008278401
+categorical__age_group_Adult,0.0077556004
+numeric__loan_amnt,0.0070380843
+numeric__high_loan_burden_flag,0.0068920767
+categorical__employment_group_6-10 years,0.006862557
+categorical__employment_group_3-5 years,0.0064002997
+categorical__employment_group_10+ years,0.006199701
+numeric__cb_person_cred_hist_length,0.005994355
+categorical__age_group_Senior,0.005524967
