@@ -14,53 +14,85 @@
 
 ## 📌 Project Overview
 
-**Credit Risk & Loan Default Prediction** is a Machine Learning project developed to analyze loan and borrower-related data and predict the possibility of loan default.
+# 💳 Credit Risk & Loan Default Prediction System
 
-The project follows an end-to-end Data Science workflow, including data preprocessing, exploratory data analysis, feature preparation, model development, evaluation, and prediction.
+An end-to-end data analytics and machine learning project designed to analyze borrower profiles, identify credit-risk patterns, and predict the likelihood of loan default.
 
-The goal is to use historical loan data to identify patterns associated with credit risk and support data-driven lending decisions.
+The project combines **Python, Machine Learning, SQL, and Power BI** to transform raw loan data into actionable credit-risk insights.
+
+---
+
+## 📌 Project Overview
+
+Loan default prediction is an important problem in the financial services industry. Lenders need to identify high-risk borrowers while maintaining responsible lending decisions.
+
+This project analyzes borrower and loan characteristics such as:
+
+- Age
+- Income
+- Employment length
+- Home ownership
+- Loan intent
+- Loan grade
+- Loan amount
+- Interest rate
+- Loan-to-income ratio
+- Previous credit default history
+- Credit history length
+- Loan default status
+
+The workflow covers:
+
+**Data → EDA → Data Preparation → Machine Learning → SQL Analysis → Power BI → Business Insights**
 
 ---
 
 ## 🎯 Objectives
 
-- Analyze historical loan and borrower data
-- Clean and preprocess the dataset
-- Perform Exploratory Data Analysis (EDA)
-- Identify important factors affecting loan default
-- Prepare features for Machine Learning
-- Build classification models
-- Evaluate model performance
-- Predict potential loan default risk
-- Generate meaningful business insights
+The main objectives of this project are to:
+
+1. Understand borrower and loan characteristics.
+2. Analyze factors associated with loan defaults.
+3. Identify high-risk borrower segments.
+4. Perform intermediate SQL analysis on credit-risk data.
+5. Build machine-learning models for loan-default prediction.
+6. Visualize important credit-risk patterns in Power BI.
+7. Generate business recommendations for lending decisions.
 
 ---
 
-## 🔄 Machine Learning Workflow
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| Python | Data analysis & machine learning |
+| Pandas | Data cleaning and manipulation |
+| NumPy | Numerical analysis |
+| Matplotlib | Data visualization |
+| Scikit-learn | Machine learning |
+| SQL / MySQL | Advanced data analysis |
+| Power BI | Interactive dashboard |
+| Jupyter Notebook | Model development & analysis |
+| GitHub | Version control & project portfolio |
+
+---
+
+# 📂 Project Structure
 
 ```text
-              Raw Dataset
-                   │
-                   ▼
-          Data Preprocessing
-                   │
-                   ▼
-         Exploratory Data Analysis
-                   │
-                   ▼
-          Feature Engineering
-                   │
-                   ▼
-          Train / Test Split
-                   │
-                   ▼
-        Machine Learning Model
-                   │
-                   ▼
-           Model Evaluation
-                   │
-                   ▼
-       Loan Default Prediction
-                   │
-                   ▼
-          Credit Risk Insights
+Credit Risk Loan Default Pediction/
+│
+├── data set/
+│   └── credit_risk_dataset.csv
+│
+├── notebook/
+│   └── Credit_Risk_Loan_Default_Prediction.ipynb
+│
+├── ouputs/
+│   └── model outputs / visualizations
+│
+├── Credit_Risk_Analysis_Intermediate_SQL.sql
+│
+├── requirements.txt.txt
+│
+└── README.md
